@@ -3,14 +3,8 @@
 
 
 from flask import Flask,request
-
-from werkzeug.utils import secure_filename
-
-
 import numpy as np
-
 from PIL import Image
-
 import tensorflow as tf  # TF2
 
 app = Flask(__name__)
